@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="cz">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+    <link rel="stylesheet" href="/Code/CSS/template.css">
+    <link rel="stylesheet" href="/Code/CSS/ateliers(1).css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+    <!-- ======= -->
+    <!-- Top nav -->
+    <!-- ======= -->
+
+    <!-- Tohle je horní lišta, složí k navigaci po celém webu -->
+
+    <section class="topnav__wrapper">
+        <div class="tp__links-wrapper">
+            <a href="/Code/HTML/about.html" class="tp__link">O nás</a>
+            <a href="/Code/HTML/ateliers(1).html" class="tp__link">Ateliéry</a>
+            <a href="/Code/HTML/projects.html" class="tp__link">Projekty</a>
+            <!--<a href="/Code/HTML/special.html" class="tp__link">Speciální nabídka</a>--> <!-- Tohle je kdyby mamka chtěla přidat speciální nabídku do horní lišty -->
+            <a href="/Code/HTML/contacts.html" class="tp__link">Kontakty</a>
+        </div>
+    </section>
+
+    <!-- =============== -->
+    <!-- Image separator -->
+    <!-- =============== -->
+
+    <!-- Vše co se jmenuje "Image separator" je obrázek který odděluje jednotlivé segmenty -->
+
+    <section class="image-separator__wrapper">
+        <img src="/Images/logo_mind_move_welcomeing_img_v2.png" alt="" class="is__img is__top">
+    </section>
+
+    <!-- ======================== -->
+    <!-- Light brown text segment -->
+    <!-- ======================== -->
+
+    <!-- Tady je hlavní část. Zde jsou všechny informace a hlavní text tohoto segmentu webu ( v tomto případě to tedy je seznam ateliérů) -->
+
+    <section class="light-brown-text-segment__wrapper">
+
+        <h1 class="heading">Naše Ateliéry</h1>  <!-- Velký nadpis všech ateliérů (asi nemá smysl měnit) -->
+
+        <!-- ======= -->
+        <!-- Actions -->
+        <!-- ======= -->
+
+        <!-- Tady jsou uložené všechny ateliéry ("obaly" jednotlivých sekcí nazývám "wrapper", názvvy lze najít v části class) -->
+
+        <div class="actions__wrapper">
+            <!-- Image -->
+
+            <img src="/Images/Atelier dospeli. Foto Magda Dubnova.jpg" alt="" class="a__img">    <!-- Úvodní obrázek ateliéru, to jak ho změníš je napsáno v dokumentaci (README.md) -->
+
+            <!-- Heading-->
+
+            <h2 style="position: relative; top: -10%;" class="a__heading">Ateliér současného tance pro dospělé</h2> <!-- Nadpis ateliéru změníš ho tak že změníš text mezi <h2> </h2> -->
+
+            <!-- Date -->
+
+            <p style="position: relative;right: 1%;" class="a__date">Každé úterý - 18:30 až 20:00 (začínáme 20. září 2022)</p>  <!-- Datum kdy se daný ateliér odehrává (opět změníš tím že změníš text mezi <p> </p>)  -->
+
+            <!-- Veertical line -->
+
+            <hr class="a__vertical-line">
+
+            <!-- ====== -->
+            <!-- Button -->
+            <!-- ====== -->
+
+            <!-- Tlačítko s textem Více a zobrazuje popup. Nemá cenu se v tom hrabat věř mi. -->
+
+            <a href="#atelier-popup1" id="action-browser__btn-1" class="fancy" onclick="document.getElementById('popup-1').classList.toggle('active');">
+                <span class="top-key"></span>
+                <span class="text"> Více </span>
+                <span class="bottom-key-1"></span>
+                <span class="bottom-key-2"></span>
+            </a>
+
+            </div>
+
+            <div class="actions__wrapper">
+            <!-- Image -->
+
+            <img src="/Images/Atelier deti.jpg" alt="" class="a__img">   <!-- Úvodní obrázek ateliéru, to jak ho změníš je napsáno v dokumentaci (README.md) -->
+
+            <!-- Heading-->
+
+            <h2 style="position: relative; top: -10%;" class="a__heading">Taneční ateliér pro děti</h2>     <!-- Úvodní obrázek ateliéru, to jak ho změníš je napsáno v dokumentaci (README.md) -->
+
+            <!-- Date -->
+
+            <p style="position: relative;right: 1%;" class="a__date">Každé úterý - 16:30 až 18:00 (začínáme 20. září 2022)</p>      <!-- Datum kdy se daný ateliér odehrává (opět změníš tím že změníš text mezi <p> </p>)  -->
+
+            <!-- Veertical line -->
+
+            <hr class="a__vertical-line">
+
+            <!-- ====== -->
+            <!-- Button -->
+            <!-- ====== -->
+
+             <!-- Tlačítko s textem Více a zobrazuje popup. Nemá cenu se v tom hrabat věř mi. -->
+
+            <a href="#atelier-popup2" id="action-browser__btn-1" class="fancy" onclick="document.getElementById('popup-2').classList.toggle('active');">
+                <span class="top-key"></span>
+                <span class="text"> Více </span>
+                <span class="bottom-key-1"></span>
+                <span class="bottom-key-2"></span>
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- =============== -->
+    <!-- Image separator -->
+    <!-- =============== -->
+
+    <section class="image-in-middle__wrapper">
+        <img src="/Images/Ateliér 4 - foto_ Pavla Haluzová.jpg" alt="" class="image-in-middle__image">
+    </section>
+
+
+    <!-- ================== -->
+    <!-- Black text segment -->
+    <!-- ================== -->
+
+    <!-- Spodní část text (ta černá) - Partneři, Newsletter, Kontakntakty -->
+
+    <section class="black-text-segment__wrapper">
+
+        <!-- ======== -->
+        <!-- Partners -->
+        <!-- ======== -->
+
+        <!-- Partneři ... (ty nadpisy jsou v angličtině, ale furt to jsou nadpisy) -->
+
+        <div class="bts-partners__wrapper">
+            <a class="bts-partners" href="/Code/HTML/partners.html">Partneři</a>
+        </div>
+
+        <!-- ========== -->
+        <!-- Newsletter -->
+        <!-- ========== -->
+
+        <!-- Nemá smysl se hrabat v kódu newsletteru, jakmile se něco pokazí nevím co budu dělat protože tady tomu kódu vůbec nerozumím  -->
+
+        <!-- Begin Mailchimp Signup Form -->
+        <link href="//cdn-images.mailchimp.com/embedcode/classic-071822.css" rel="stylesheet" type="text/css">
+        <style type="text/css">
+            #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif;  width:600px;}
+            /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+            We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+        </style>
+        <div style="background-color: #252525;" id="mc_embed_signup">
+            <form action="https://gmail.us8.list-manage.com/subscribe/post?u=ce3d925e8abe763b5f79a0f53&amp;id=1f04b055e3&amp;f_id=001a65e0f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                <div id="mc_embed_signup_scroll">
+                <h2 style="color: #ffffff;">Chcete dostávat novinky o činnosti a projektech spolku MindMove?</h2>
+                <div style="color: #ffffff;" class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+        <div class="mc-field-group">
+            <label style="color: #ffffff;" for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
+        </label>
+            <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" required>
+            <span id="mce-EMAIL-HELPERTEXT" class="helper_text">Vaše e-mailová adresa</span>
+        </div>
+            <div id="mce-responses" class="clear foot">
+                <div class="response" id="mce-error-response" style="display:none"></div>
+                <div class="response" id="mce-success-response" style="display:none"></div>
+            </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_ce3d925e8abe763b5f79a0f53_1f04b055e3" tabindex="-1" value=""></div>
+                <div class="optionalParent">
+                    <div class="clear foot">
+                        <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+                        <p class="brandingLogo"><a href="http://eepurl.com/ibDNib" title="Mailchimp - email marketing made easy and fun"><img src="https://eep.io/mc-cdn-images/template_images/branding_logo_text_dark_dtp.svg"></a></p>
+                    </div>
+                </div>
+            </div>
+        </form>
+        </div>
+        <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+        <!--End mc_embed_signup-->
+
+        <!-- ======== -->
+        <!-- Kontacts -->
+        <!-- ======== -->
+
+        <!-- Kontakty... -->
+
+        <div class="bts-kontacts__wrapper">
+            <a class="bts-kontacts" href="/Code/HTML/contacts.html">Kontakty</a>
+        </div>
+        
+    </section>
+
+    <!-- =========== -->
+    <!-- Teleporters -->
+    <!-- =========== -->
+
+    <!-- Tady ukládám odkazy pro popupy - nazval jsem se teleportéry protože jsou to neviditelné čtverce které slouží k tomu aby se posunul web na místo kde je popup -->
+
+    <div id="atelier-popup1"></div>
+    <div id="atelier-popup2"></div>
+
+    <!-- ====== -->
+    <!-- Popups -->
+    <!-- ====== -->
+
+    <!-- Zde jsou všechny popupy, konkrétně jejich okna a obsah v oknech. Pokud se nemýlím momentálně je stažený a neviditelný dole, pod kontakty, newsletterem a partnery -->
+
+            <!-- ===== -->
+            <!-- Popup -->
+            <!-- ===== -->
+
+            <!-- Popup prvního ateliéru - je tady jen pár sekcí které můžeš editovat pokud se něco pokazí prosím napiš mi jde to zpravit ale musí se zabránity rozšíření problému. -->
+
+            <div class="popup" id="popup-1">
+                <div onclick="document.getElementById('popup-1').classList.toggle('active');" class="overlay"></div>
+                <div class="content">
+                    <div class="close-btn" onclick="document.getElementById('popup-1').classList.toggle('active');">&times;</div>
+
+                    <!-- ============= -->
+                    <!-- Popup Heading -->
+                    <!-- ============= -->
+
+                    <h1>Ateliér současného tance pro dospělé</h1>       <!-- Nadpis popupu (změn text mezi <h1> </h1>) -->
+
+                    <!-- ================ -->
+                    <!-- Pop up main text -->
+                    <!-- ================ -->
+
+                    <!-- Popis ateliéru - text mezi <p> </p> -->
+
+                    <p>
+                        Ateliér současného tance je otevřený všem, kteří chtějí poznávat a rozvíjet škálu
+                        výrazových prostředků svého těla v pohybu. Je založen na dvou základních pilířích. Má
+                        svou tvůrčí složku, kde hlavní nástroje práce tvoří pohybová hra a improvizace. Má také
+                        svou složku pohybově technickou, jejímž cílem je budování zdravého, mrštného,
+                        funkčního, hbitého a pohotového těla.
+                        Cílem je ale hlavně prožitek radosti z pohybu, z nově načerpané energie, relax ve skvělé
+                        uvolňující atmosféře.
+                        Předchozí zkušenost s pohybem není ani překážkou, ani není nutná.
+                        Technická složka lekce je zacílena především na budování zdravého postoje těla a
+                        prováděného pohybu z hlediska fyziologického optima, kdy každému z účastníků je dopřán
+                        individuální přístup. Postupné citlivé posílení a protažení celého těla nás bude provázet
+                        každou lekcí.
+                        Tvůrčí složka lekce má za cíl prostřednictvím improvizace a hry „zvědomovat“ vžité pohybové
+                        stereotypy a nabourávat je, ideálně také obohacovat o další možnosti vlastního pohybového
+                        projevu z hlediska jeho kvality. Například práce se škálou napětí v těle, ostrostí, rytmem,
+                        prostorem, s tématem improvizace a možnými cestami jeho zpracování, s možnostmi
+                        interakce a kooperace s ostatními lidmi ve skupině.
+                        Součástí každé lekce je závěrečná relaxace.
+                        Referenčními technikami, ze kterých lektorka ve své osobité práci vychází, jsou především
+                        kontaktní improvizace a jóga. Je tu však celá řada dalších významných inspiračních vlivů a
+                        zdrojů odrážející její dlouholetou profesionální pedagogickou, performerskou i
+                        choreografickou činnost.
+                        určeno dospělým od 18ti let                                
+                    </p>
+
+                    <!-- ==================== -->
+                    <!-- Popup bottom section -->
+                    <!-- ==================== -->
+
+                    <!-- Spodní část popupu tohle bude těžší na editaci bez problému. Pokusím se to co nejlépe popsat a zmíním se o tom v dokumentaci ale neboj se napsat pokud se něco pokazí, vše se dá zpravit nebo použít starý save -->
+
+                    <br>
+
+                    <!-- Tady jsou tři malé obrázky jako "upoutávka" pro daný ateliér -->
+
+                    <div class="popup-images-wrapper">
+                        <a onclick="document.getElementById('popup-1__img-1').classList.toggle('active');"><img src="/Images/Atelier dospeli. Foto Magda Dubnova.jpg" id="popup1-image1" alt="" class="popup-image"></a>        <!-- Obrázek 1 -->
+                        <a onclick="document.getElementById('popup-1__img-2').classList.toggle('active');"><img src="/Images/Atelier dospeli. Foto Magda Dubnova2.jpg" id="popup1-image2" alt="" class="popup-image"></a>       <!-- Obrázek 2 -->
+                        <a onclick="document.getElementById('popup-1__img-3').classList.toggle('active');"><img src="/Images/Atelier dospeli. Foto Magda Dubnova3.jpg" id="popup1-image3" alt="" class="popup-image"></a>       <!-- Obrázek 3 -->
+                    </div>
+                    <br>
+                    <a style="cursor: pointer;" onclick="document.getElementById('popup-1__more-images').classList.toggle('active');">Všechny obrázky</a>
+                    <br>
+                    <br>
+                    <p>     <!-- Datum -->
+                        Každé úterý - 18:30 až 20:00 (začínáme 20. září 2022)
+                    </p>
+                    <hr>
+                    <p>     <!-- Počet lekcí -->
+                        14 lekcí + první ukázková lekce
+                    </p>
+                    <hr>
+                    <p>     <!-- Adresa -->
+                        Ve zkušebně Divadla Archa, Zlatnická 8, Praha 1
+                    </p>
+                    <hr>
+                    <p>     <!-- Cena -->
+                        Cena ateliéru: 4200 Kč
+                    </p>
+                </div>
+            </div>
+
+            <!-- ===================== -->
+            <!-- Popup For more Images -->
+            <!-- ===================== -->
+
+            <!-- Okno se všema fotkama z ateliéru -->
+
+            <div class="popup" id="popup-1__more-images">
+                <div onclick="document.getElementById('popup-1__more-images').classList.toggle('active');"></div>
+                <div class="content">
+                    <div class="close-btn" onclick="document.getElementById('popup-1__more-images').classList.toggle('active');">&times;</div>
+                    <div class="images-in-popup__parent">
+                        <!-- Obrázky - střední verze -->
+                        <a onclick="document.getElementById('popup-1__img-1').classList.toggle('active');"><img style="width: 500px;height: 300px;" src="/Images/Atelier dospeli. Foto Magda Dubnova.jpg" alt=""></a>   <!-- Obrázek 1 -->
+                        <a onclick="document.getElementById('popup-1__img-2').classList.toggle('active');"><img style="width: 500px;height: 300px;" src="/Images/Atelier dospeli. Foto Magda Dubnova2.jpg" alt=""></a>   <!-- Obrázek 2 -->
+                        <a onclick="document.getElementById('popup-1__img-3').classList.toggle('active');"><img style="width: 500px;height: 300px;" src="/Images/Atelier dospeli. Foto Magda Dubnova3.jpg" alt=""></a>   <!-- Obrázek 3 -->
+                        <a onclick="document.getElementById('popup-1__img-4').classList.toggle('active');"><img style="width: 500px;height: 300px;" src="/Images/Atelier dospeli. Foto Magda Dubnova4.jpg" alt=""></a>   <!-- Obrázek 4 -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pokud klikneme na střední obrázek otevře se dětší okno s obrázkem na který uživatel kliknul. Zde jsou všechny tyto okna uložena. Pokud se budou měnit obrázky nesmí se zapomenout na tyhle okna. -->
+
+            <!-- =============== -->
+            <!-- Popup 1 image 1 -->
+            <!-- =============== -->
+
+            <!-- Vyskakovací okno pro Obrázek 1 -->
+
+            <div class="popup" id="popup-1__img-1">
+                <div onclick="document.getElementById('popup-1__img-1').classList.toggle('active');" class="overlay"></div>
+                <div class="content">
+                    <div onclick="document.getElementById('popup-1__img-1').classList.toggle('active');" class="close-btn">&times;</div>
+                    <img src="/Images/Atelier dospeli. Foto Magda Dubnova.jpg" class="popup__big-img" alt="">           <!-- Obrázek 1 -->
+                </div>
+            </div>
+
+            <!-- =============== -->
+            <!-- Popup 1 image 2 -->
+            <!-- =============== -->
+
+            <!-- Vyskakovací okno pro Obrázek 2 -->
+
+            <div class="popup" id="popup-1__img-2">
+                <div onclick="document.getElementById('popup-1__img-2').classList.toggle('active');" class="overlay"></div>
+                <div class="content">
+                    <div onclick="document.getElementById('popup-1__img-2').classList.toggle('active');" class="close-btn">&times;</div>
+                    <img src="/Images/Atelier dospeli. Foto Magda Dubnova2.jpg" class="popup__big-img" alt="">         <!-- Obrázek 2 -->
+                </div>
+            </div>
+
+            <!-- =============== -->
+            <!-- Popup 1 image 3 -->
+            <!-- =============== -->
+
+            <!-- Vyskakovací okno pro Obrázek 3 -->
+
+            <div class="popup" id="popup-1__img-3">
+                <div onclick="document.getElementById('popup-1__img-3').classList.toggle('active');" class="overlay"></div>
+                <div class="content">
+                    <div onclick="document.getElementById('popup-1__img-3').classList.toggle('active');" class="close-btn">&times;</div>
+                    <img src="/Images/Atelier dospeli. Foto Magda Dubnova3.jpg" class="popup__big-img" alt="">          <!-- Obrázek 3 -->
+                </div>
+            </div>
+
+            <!-- =============== -->
+            <!-- Popup 1 image 4 -->
+            <!-- =============== -->
+
+            <!-- Vyskakovací okno pro Obrázek 4 -->
+
+            <div class="popup" id="popup-1__img-4">
+                <div onclick="document.getElementById('popup-1__img-4').classList.toggle('active');" class="overlay"></div>
+                <div class="content">
+                    <div onclick="document.getElementById('popup-1__img-4').classList.toggle('active');" class="close-btn">&times;</div>
+                    <img src="/Images/Atelier dospeli. Foto Magda Dubnova4.jpg" class="popup__big-img" alt="">          <!-- Obrázek 4 -->
+                </div>
+            </div>
+
+
+            <!-- ================================= -->
+            <!-- Konec prvního popup, čas na druhý -->
+            <!-- ================================= -->
+
+
+
+
+            <!-- ===== -->
+            <!-- Popup -->
+            <!-- ===== -->
+
+            <!-- Druhý popup - všechny jsem dělal podle svojí (stejné) šablony takže je jen pár věcí změněných, ale ty tě nemusí zajímat protože změny pouze dělají popup funkční. -->
+                          
+            <div class="popup" id="popup-2">
+                <div onclick="document.getElementById('popup-2').classList.toggle('active');" class="overlay"></div>
+                <div class="content">
+                    <div class="close-btn" onclick="document.getElementById('popup-2').classList.toggle('active');">&times;</div>
+                    <h1>Taneční ateliér pro děti</h1>       <!-- Nadpis -->
+                    <p>     <!-- Popis -->
+                        Víte, jak se hýbe bouřka, strom, ještěrka, pírko, nebo stíhačka? Dovedete společně svým
+                        tělem vytvořit ohromnou skálu, nebo lehoučký šátek z hedvábí? Dovedete si svůj pohyb
+                        zapamatovat? Chcete si zaskotačit a něco se při tom naučit? Zveme vás do ateliéru
+                        současného tance pro děti!
+                        Naučíme se užitečné akrobatické prvky vycházející z gymnastiky, posílíme a protáhneme
+                        úplně celé tělo. Budeme pracovat samostatně, ve dvojicích i skupinách, pohybovat se celým
+                        tělem po podlaze i skákat, budeme šíleně rychlí, p o m a l í , ohromní i titěrní. Každá
+                        hodina má své téma, které hravou tvůrčí formou v pohybu společně rozvineme. Když už
+                        budeme unavení, budeme si chvíli zpívat, hrát s rytmem, nebo kreslit. Zapojíme co nejvíce
+                        smyslů a dovedností tak, aby nás pohyb především bavil a pomáhal nám vnímat a poznávat
+                        sebe i svět. Součástí každé hodiny bude závěrečná zpětná vazba a relaxace.
+                        <br>
+                        určeno dětem od 5ti do 10ti let
+                    </p>
+                    <br>
+                    <div class="popup-images-wrapper">      <!-- Malé obrázky -->
+                        <a onclick="document.getElementById('popup-2__img-1').classList.toggle('active');"><img src="/Images/Atelier deti.jpg" alt="" class="popup-image"></a>      <!-- Obrázek 1 -->
+                        <a onclick="document.getElementById('popup-2__img-2').classList.toggle('active');"><img src="/Images/Atelier deti2.jpg" alt="" class="popup-image"></a>     <!-- Obrázek 2 -->
+                        <a onclick="document.getElementById('popup-2__img-3').classList.toggle('active');"><img src="/Images/Atelier deti3.jpg" alt="" class="popup-image"></a>     <!-- Obrázek 3 -->
+                    </div>
+                    <br>
+                    <a style="cursor: pointer;" onclick="document.getElementById('popup-2__more-images').classList.toggle('active');">Všechny obrázky</a>
+                    <br>
+                    <p>     <!-- Datum -->
+                        Každé úterý - 16:30 až 18:00 (začínáme 20. září 2022)
+                    </p>
+                    <hr>
+                    <p>     <!-- Počet lekcí -->
+                        14 lekcí + první ukázková lekce
+                    </p>
+                    <hr>
+                    <p>     <!-- Adresa -->
+                        Ve zkušebně Divadla Archa, Zlatnická 8, Praha 1
+                    </p>
+                    <hr>
+                    <p>     <!-- Cena -->
+                        Cena ateliéru: 3500 Kč
+                    </p>
+                </div>
+            </div>
+
+            <!-- ===================== -->
+            <!-- Popup for more images -->
+            <!-- ===================== -->
+
+            <div class="popup" id="popup-2__more-images">
+                <div onclick="document.getElementById('popup-2__more-images').classList.toggle('active');"></div>
+                <div class="content">
+                    <div class="close-btn" onclick="document.getElementById('popup-2__more-images').classList.toggle('active');">&times;</div>
+                    <div class="images-in-popup__parent">
+
+                        <!-- střední obrázky -->
+
+                        <a onclick="document.getElementById('popup-2__img-1').classList.toggle('active');"><img style="width: 500px;height: 300px;" src="/Images/Atelier deti.jpg" alt=""></a>      <!-- Obrázek 1-->
+                        <a onclick="document.getElementById('popup-2__img-2').classList.toggle('active');"><img style="width: 500px;height: 300px;" src="/Images/Atelier deti2.jpg" alt=""></a>     <!-- Obrázek 2 -->
+                        <a onclick="document.getElementById('popup-2__img-3').classList.toggle('active');"><img style="width: 500px;height: 300px;" src="/Images/Atelier deti3.jpg" alt=""></a>     <!-- Obrázek 3 -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- =============== -->
+            <!-- Popup 2 image 1 -->
+            <!-- =============== -->
+
+            <!-- Obrázek 1 -->
+
+            <div class="popup" id="popup-2__img-1">
+                <div onclick="document.getElementById('popup-2__img-1').classList.toggle('active');" class="overlay"></div>
+                <div class="content">
+                    <div onclick="document.getElementById('popup-2__img-1').classList.toggle('active');" class="close-btn">&times;</div>
+                    <img src="/Images/Atelier deti.jpg" class="popup__big-img" alt="">      <!-- Obrázek -->
+                </div>
+            </div>
+
+            <!-- =============== -->
+            <!-- Popup 2 image 2 -->
+            <!-- =============== -->
+
+            <!-- Obrázek 2 -->
+
+            <div class="popup" id="popup-2__img-2">
+                <div onclick="document.getElementById('popup-2__img-2').classList.toggle('active');" class="overlay"></div>
+                <div class="content">
+                    <div onclick="document.getElementById('popup-2__img-2').classList.toggle('active');" class="close-btn">&times;</div>
+                    <img src="/Images/Atelier deti2.jpg" class="popup__big-img" alt="">     <!-- Obrázek -->
+                </div>
+            </div>
+
+            <!-- =============== -->
+            <!-- Popup 2 image 3 -->
+            <!-- =============== -->
+
+            <!-- Obrázek 3 -->
+
+            <div class="popup" id="popup-2__img-3">
+                <div onclick="document.getElementById('popup-2__img-3').classList.toggle('active');" class="overlay"></div>
+                <div class="content">
+                    <div onclick="document.getElementById('popup-2__img-3').classList.toggle('active');" class="close-btn">&times;</div>
+                    <img src="/Images/Atelier deti3.jpg" class="popup__big-img" alt="">     <!-- Obrázek -->
+                </div>
+            </div>
+
+            <!-- ======================================= -->
+            <!-- Konec druhého popupu a taky tohoto kódu -->
+            <!-- ======================================= -->
+            
+</body>
+</html>	
