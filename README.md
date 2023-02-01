@@ -68,11 +68,11 @@ Pop up má několik sekcí:
  4. Technicky taky tzv. *Teleporter* 
 
 	**1 - Nadpis a popis** <br>
-		Tato část je asi ta nejlehčí na pochopení. Je to pouze nadpis (název) ateliéru a jeho popis. Vše se dá snadno změnit (viz.: [Změna textu](#zmena_textu)) a prakticky nemá místo pro chybu.
+		Tato část je asi ta nejlehčí na pochopení. Je to pouze nadpis (název) ateliéru a jeho popis. Vše se dá snadno změnit (viz.: [Změna textu](#zmena_textu)) a prakticky nemá místo pro chybu. <br>
 		**2 - Obrázky a odkaz na více obrázků** <br>
-		Každý váš ateliér je doplněn i obrázky z předchozích akcí jako promo materiál (to jak se mění obrázky se dozvíme na [Změna obrázku](#zmena_obrazku)). Musíme mít na paměti že tři které jsou vystaveny na popupu jako takovém jsou velmi malé a detaily nelze rozeznat takže nemá smysl moc se rýpat v jejich kvalitě.
+		Každý váš ateliér je doplněn i obrázky z předchozích akcí jako promo materiál (to jak se mění obrázky se dozvíme na [Změna obrázku](#zmena_obrazku)). Musíme mít na paměti že tři které jsou vystaveny na popupu jako takovém jsou velmi malé a detaily nelze rozeznat takže nemá smysl moc se rýpat v jejich kvalitě. <br>
 		**3 - Spodní sekce** <br>
 		Spodní sekce popisuje informace které nebývají popsané v popisu (tedy cena, lektor, čas, lokace atd... Každá informace je na vlastním řádku a oddělena vodorovnou čárou.  Abychom docílili tohoto efektu stačí se držet následovné šablony:
-<em> 	Nedokázal jsem vložit sem nějakou dobrou šablonu - bude to ve složce materiály pod názvem pop up spodek sablona</em>
+<em> 	Nedokázal jsem vložit sem nějakou dobrou šablonu - bude to ve složce materiály pod názvem pop up spodek sablona</em> <br>
 		**4 - Teleporter** <br>
-		Teleportery slouží pro organizaci a samočinné posouvání po stránce webu. Ve skutečnosti jsou to schované neviditelné obdélníčky . Tyto obdélníčky slouží jako odkaz aby se pohled návštěvníka posunul tam kam si přeji. Není důvod si s nimi nějak hrát, pokud to neuzná současný správce webu za potřebné (v tuto chvíli je to Vojtěch Kotlík - email: [Žahour](mailto:zahour959@gmail.com)).
+		Teleportery slouží pro organizaci a samočinné posouvání po stránce webu. Ve skutečnosti jsou to schované neviditelné obdélníčky . Tyto obdélníčky slouží jako odkaz aby se pohled návštěvníka posunul tam kam si přeji. Není důvod si s nimi nějak hrát, pokud to neuzná současný správce webu za potřebné (v tuto chvíli je to Vojtěch Kotlík - email: [Žahour](mailto:zahour959@gmail.com)). <br>
