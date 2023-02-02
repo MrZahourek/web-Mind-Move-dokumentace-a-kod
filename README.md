@@ -2,7 +2,7 @@
 ~ ===-===-===-===-===-===-===-=== = ~ _**Dokumentace**_ ~ = ===-===-===-===-===-===-===-=== ~
 
 <span id="instalace_IDE"></span>
-**#0 Instalace Programu pro čtení** <br>
+**#0 Instalace Programu pro čtení (doporučeno)** <br>
 
 Abychom mohli kód číst snadněji bude potřeba stáhnout si nějaký program pro čtení a editaci tohoto kódu. Důvodů proč si stáhnout nějaký program na čtení je hned několik: předchází se tím chybě (program bude kontrolovat a hledat chyby v kódu); jistota rozběhnutí stránky na počítači (spolu s programem se thne i prostředí pro rozběhnutí HTML, CSS a JS); lepší přehlednost (program zvýrazňuje příkazy pro lepší přehlednost); mnoho možností na výběr (nesedí ti doporučený editor? Zkus jakýkoli jiný na internetu a najdi svůj nejoblíbenější); zrychlení psaní (program umí i doplňovat slova a dopisovat příkazy. Moje doporučené editory jsou:
 
