@@ -1,6 +1,15 @@
-# <========== -• Mind Move web •- ==========>
+<span id="instalace_IDE"></span>
+**#0 Instalace Programu pro čtení**
+Abychom mohli kód číst snadněji bude potřeba stáhnout si nějaký program pro čtení a editaci tohoto kódu. Důvodů proč si stáhnout nějaký program na čtení je hned několik: předchází se tím chybě (program bude kontrolovat a hledat chyby v kódu); jistota rozběhnutí stránky na počítači (spolu s programem se thne i prostředí pro rozběhnutí HTML, CSS a JS); lepší přehlednost (program zvýrazňuje příkazy pro lepší přehlednost); mnoho možností na výběr (nesedí ti doporučený editor? Zkus jakýkoli jiný na internetu a najdi svůj nejoblíbenější); zrychlení psaní (program umí i doplňovat slova a dopisovat příkazy. Moje doporučené editory jsou:
 
-~ ===-===-===-===-===-===-===-=== = ~ _**Dokumentace**_ ~ = ===-===-===-===-===-===-===-=== ~
+ - VS Code (od firmy Microsoft, [stažení](https://code.visualstudio.com/download))
+ - Replit (online editor který nevyžaduje žádné platby, [odkaz na přihlášení](https://replit.com/~))
+ - Bluefish (lehký a malý program pro všechny platformy, [stažení](https://bluefish.openoffice.nl/download.html))
+ - Notepad ++ (velmi velmi snadný program se starším GUI a bez rušivých efektů, [stažení](https://notepad-plus-plus.org/downloads/v8.4.9/))
+
+Bude nejlepší pokud alespoň jeden zkusíš ale pokud ti vyhovuje poznámkový blok můžeš ho používat. Druhá možnost je použít přirozený prohlížeč html od vyhledávače, ten lze zpřístupnit pomocí pravé klávesy a možnosti prozkoumat stránku. 
+
+ 
 
 <span id="zmena_textu"></span>
  **#1 Změna textu**
