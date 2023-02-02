@@ -67,12 +67,12 @@ Pop up má několik sekcí:
  3. Spodní sekci (obrázky, čas, cena, atd...)
  4. Technicky taky tzv. *Teleporter* 
 
-	**1 - Nadpis a popis** <br>
-		Tato část je asi ta nejlehčí na pochopení. Je to pouze nadpis (název) ateliéru a jeho popis. Vše se dá snadno změnit (viz.: [Změna textu](#zmena_textu)) a prakticky nemá místo pro chybu. <br>
-		**2 - Obrázky a odkaz na více obrázků** <br>
-		Každý váš ateliér je doplněn i obrázky z předchozích akcí jako promo materiál (to jak se mění obrázky se dozvíme na [Změna obrázku](#zmena_obrazku)). Musíme mít na paměti že tři které jsou vystaveny na popupu jako takovém jsou velmi malé a detaily nelze rozeznat takže nemá smysl moc se rýpat v jejich kvalitě. <br>
-		**3 - Spodní sekce** <br>
+	**1 - Nadpis a popis**
+		Tato část je asi ta nejlehčí na pochopení. Je to pouze nadpis (název) ateliéru a jeho popis. Vše se dá snadno změnit (viz.: [Změna textu](#zmena_textu)) a prakticky nemá místo pro chybu.<br><br>
+		**2 - Obrázky a odkaz na více obrázků**
+		Každý váš ateliér je doplněn i obrázky z předchozích akcí jako promo materiál (to jak se mění obrázky se dozvíme na [Změna obrázku](#zmena_obrazku)). Musíme mít na paměti že tři které jsou vystaveny na popupu jako takovém jsou velmi malé a detaily nelze rozeznat takže nemá smysl moc se rýpat v jejich kvalitě. Změna obrázku zde ale bude v tomto případě těžší než  u normálních obrázků. Obrázek budeme muset změnit na 2 - 3 specifických lokacích. Tato obtížnost je způsobena tím, že obrázky jsou rozdistribuovány do tří vyskakovacích oken. První okno je to které se otevře u ateliéru a zobrazuje detaily ateliéru. (tři obrázky jsou pod popisem spolu s odkazem pro více obrázků z akce). Druhé okno je to které se otevře po tom co uživatel klikne na odkaz pro více obrázků, zde jsou obrázky větší a jsou zde úplně všechny obrázky co se týkají daného ateliéru. Poslední, třetí okno je vždy jen jeden specifický obrázek (detail obrázku), toto okno se otevře pokud klikneme na obrázek ve druhém okně. Je tedy velmi důležité si ověřit že jste změnily všechny obrázky a že jsou na správných lokacích.   <br><br>
+		**3 - Spodní sekce**
 		Spodní sekce popisuje informace které nebývají popsané v popisu (tedy cena, lektor, čas, lokace atd... Každá informace je na vlastním řádku a oddělena vodorovnou čárou.  Abychom docílili tohoto efektu stačí se držet následovné šablony:
-<em> 	Nedokázal jsem vložit sem nějakou dobrou šablonu - bude to ve složce materiály pod názvem pop up spodek sablona</em> <br>
-		**4 - Teleporter** <br>
-		Teleportery slouží pro organizaci a samočinné posouvání po stránce webu. Ve skutečnosti jsou to schované neviditelné obdélníčky . Tyto obdélníčky slouží jako odkaz aby se pohled návštěvníka posunul tam kam si přeji. Není důvod si s nimi nějak hrát, pokud to neuzná současný správce webu za potřebné (v tuto chvíli je to Vojtěch Kotlík - email: [Žahour](mailto:zahour959@gmail.com)). <br>
+<em> 	Nedokázal jsem vložit sem nějakou dobrou šablonu - bude to ve složce materiály pod názvem pop up spodek sablona</em><br><br>
+		**4 - Teleporter**
+		Teleportery slouží pro organizaci a samočinné posouvání po stránce webu. Ve skutečnosti jsou to schované neviditelné obdélníčky . Tyto obdélníčky slouží jako odkaz aby se pohled návštěvníka posunul tam kam si přeji. Není důvod si s nimi nějak hrát, pokud to neuzná současný správce webu za potřebné (v tuto chvíli je to Vojtěch Kotlík - email: [Žahour](mailto:zahour959@gmail.com)). <br><br>
